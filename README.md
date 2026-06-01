@@ -1,5 +1,7 @@
 # WPS PIN Bruteforcer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Bash automation that combines **wpspin** (PIN generation from a target BSSID) with **reaver** (WPS PIN attempts) to recover the WPS PIN and WPA passphrase of a vulnerable access point.
 
 Designed for authorized security assessments and lab environments (e.g. HTB CWPE coursework).
@@ -120,9 +122,14 @@ These values are set inside `pinguess_upgraded.sh` and may need adjustment for y
 ```
 wpspin_bruteforcer/
 ├── pinguess_upgraded.sh   # Main automation script
+├── LICENSE                # MIT License
 └── README.md              # This file
 ```
 
 ## License
 
-Add a license file if you plan to publish this repository (e.g. MIT, GPL, or “educational use only”). No license is included by default.
+This project is licensed under the [MIT License](LICENSE).
+
+You may use, copy, modify, and distribute the software under the terms of that license. The MIT License does **not** grant permission to attack networks without authorization—see [Legal and ethical use](#legal-and-ethical-use) above.
+
+To attribute the project, keep the copyright notice in `LICENSE` when you redistribute or fork it. Replace `wpspin_bruteforcer contributors` in `LICENSE` with your name if you are the sole copyright holder.
